@@ -2,7 +2,7 @@
   "expo": {
     "name": "my-app",
     "slug": "my-app",
-    "version": "1.0.1",
+    "version": "1.0.5",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
@@ -47,11 +47,12 @@
         "projectId": "94bb20c7-d754-42a9-ad50-d81f70f4e05d"
       }
     },
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
+    "runtimeVersion": "1.0.5",
     "updates": {
-      "url": "https://u.expo.dev/94bb20c7-d754-42a9-ad50-d81f70f4e05d"
+      "url": "https://u.expo.dev/94bb20c7-d754-42a9-ad50-d81f70f4e05d",
+      "requestHeaders": {
+        "expo-channel-name": "preview"
+      }
     }
   }
 }

@@ -5,29 +5,23 @@ import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import { MaterialIcons } from '@expo/vector-icons';
 import { FontAwesome } from '@expo/vector-icons';
 import { Octicons } from '@expo/vector-icons';
-import * as Updates from 'expo-updates'
+import * as Updates from 'expo-updates';
 
 
 const _layout = () => {
 
-  async function onFetchUpdateAsync(){
-    try{
-      const update =await Updates.checkForUpdateAsync();
-      if(update.isAvailable){
-        await Updates.fetchUpdateAsync();
-        await Updates.reloadAsync();
-      }
-    }
-    catch(error){
-      alert(`Error fetching latest Expo update:${error}`);
-    }
-  }
-
-  useEffect(()=>{
-    onFetchUpdateAsync()
-  })
+  const runTypeMessage = Updates.isEmbeddedLaunch
+  ? 'This app is running from built-in code'
+  : 'This app is running an update';
   return (
-    <Tabs>
+    <Tabs   screenOptions={{
+      tabBarActiveTintColor: '#e91e63',
+      tabBarInactiveTintColor: 'gray',
+      tabBarStyle: { backgroundColor: 'black' },
+      headerStyle: { backgroundColor: '#1e1e1e' }, // Set header background color
+      headerTintColor: '#fff', // Set header text and icon color
+    }}>
+       
       <Tabs.Screen
       name='index'
       options={{
@@ -67,6 +61,22 @@ const _layout = () => {
           
         ),
       }}
+      />
+           <Tabs.Screen
+      name='reel'
+      options={{
+        title:"Reels",
+        tabBarIcon: ({ color, size }) => (
+          <MaterialCommunityIcons name="language-javascript" size={24} color={color} />
+          
+        ),
+      }}
+      />
+       <Tabs.Screen
+        name="drawer"
+        options={{
+          href: null,
+        }}
       />
     </Tabs>
   )
