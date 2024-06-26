@@ -5,6 +5,7 @@ import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import { MaterialIcons } from '@expo/vector-icons';
 import { FontAwesome } from '@expo/vector-icons';
 import { Octicons } from '@expo/vector-icons';
+import { FontAwesome6 } from '@expo/vector-icons';
 import * as Updates from 'expo-updates';
 
 
@@ -67,7 +68,7 @@ const _layout = () => {
       options={{
         title:"Reels",
         tabBarIcon: ({ color, size }) => (
-          <MaterialCommunityIcons name="language-javascript" size={24} color={color} />
+          <FontAwesome6 name="screenpal" size={24} color={color} />
           
         ),
       }}
