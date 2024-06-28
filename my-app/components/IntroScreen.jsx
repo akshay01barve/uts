@@ -7,7 +7,7 @@ const IntroScreen = () => {
     
       <Image 
         source={require('../assets/images/splash.png')} 
-      
+       style={{width:390,height:660}}
       />
     </View>
   );

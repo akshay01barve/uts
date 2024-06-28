@@ -10,7 +10,7 @@ const index = () => {
   const  [isloaded, setIsLoaded] = useState(false);
   setTimeout(() => {
     setIsLoaded(true)
-  }, 9000);
+  }, 4000);
 
  
   return (
