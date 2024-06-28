@@ -4,7 +4,7 @@ import Javascript from '../components/Javascript/Javascript'
 
 const Javascrip = () => {
   return (
-    <View>
+    <View style={{padding:9,paddingBottom:535}}>
      <Javascript/>
     </View>
   )

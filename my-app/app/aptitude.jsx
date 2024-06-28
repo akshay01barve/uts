@@ -4,7 +4,7 @@ import Aptitude from "../components/Aptitude/Aptitude"
 
 const Aptitud = () => {
   return (
-    <View>
+    <View style={{padding:9,paddingBottom:535}}>
       <Aptitude/>
     </View>
   )

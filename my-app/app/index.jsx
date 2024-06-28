@@ -1,14 +1,22 @@
 import { StyleSheet, Text, View } from 'react-native'
 import Home from '../components/Home/Home'
+import { useState } from 'react'
+import IntroScreen from '../components/IntroScreen';
+
 
 
 
 const index = () => {
+  const  [isloaded, setIsLoaded] = useState(false);
+  setTimeout(() => {
+    setIsLoaded(true)
+  }, 9000);
 
  
   return (
     <View style={{padding:9,paddingBottom:535}}>
-   <Home/>
+     
+   {isloaded  ?<Home/>:<IntroScreen/>}
     </View>
   )
 }

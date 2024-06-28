@@ -26,7 +26,7 @@ const Home = () => {
   };
   return (
     <View  >
-      <View style={{backgroundColor:"#ff1744",marginBottom:15}} >
+      <View style={{backgroundColor:"#2196f3",marginBottom:15,borderRadius:23}} >
         <Text style={{fontSize:22,fontWeight:"bold",fontStyle:"italic" ,color:"#fefefe" ,padding:15}} >If You Focus You Will Learn, Without Focusing you can't learn, if You learn You can grow, Without learning you can't grow, if you Grow you can enjoy, without growing you shouldn't enjoy Reapet</Text>
       </View>
       <View style={{display:'flex',flexDirection:"row", justifyContent:"space-between"}}>

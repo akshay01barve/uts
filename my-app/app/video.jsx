@@ -4,7 +4,7 @@ import UPSC from "../components/Video/UPSC"
 
 const Video = () => {
   return (
-    <View>
+    <View style={{padding:9,paddingBottom:535}}>
       <UPSC/>
     </View>
   )
