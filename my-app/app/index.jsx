@@ -4,8 +4,6 @@ import { useState } from 'react'
 import IntroScreen from '../components/IntroScreen';
 
 
-
-
 const index = () => {
   const  [isloaded, setIsLoaded] = useState(false);
   setTimeout(() => {
@@ -16,7 +14,8 @@ const index = () => {
   return (
     <View style={{padding:9,paddingBottom:535}}>
      
-   {isloaded  ?<Home/>:<IntroScreen/>}
+   {/* {isloaded  ?<Home/>:<IntroScreen/>} */}
+   <Home/>
     </View>
   )
 }
