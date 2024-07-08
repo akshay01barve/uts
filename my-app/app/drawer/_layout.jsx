@@ -18,7 +18,7 @@ export default function Layout() {
             ),
             title: 'Images',
             headerStyle: {
-              backgroundColor: '#2196f3', // Background color of the header
+              backgroundColor: '#ff1744', // Background color of the header
             },
             headerTitleStyle: {
               color: '#FFF', // Text color of the header title
