@@ -27,27 +27,27 @@ const items: Item[] = [
   },
   {
     id: '005',
-    url: 'https://youtube.com/shorts/-IcYublDy7I',
+    url: 'https://www.youtube.com/embed/Bi2A180vAVQ?si=ZUQxicTnq_YHoUM4',
   },
   {
     id: '006',
-    url: 'https://youtube.com/shorts/6a1tmHi6d60',
+    url: 'https://www.youtube.com/embed/1oU_YGhT7ck?si=xfA2EUC1sJxy6Kvj',
   },
   {
     id: '007',
-    url: 'https://youtube.com/shorts/8Lt1hJnEcq0',
+    url: 'https://www.youtube.com/embed/dOkkHHuFxjM?si=KFCWpEhlnWxMGkfA',
   },
   {
     id: '008',
-    url: 'https://youtube.com/shorts/266xNTZN5VI',
+    url: 'https://www.youtube.com/embed/pBgQhZcQxMw?si=B_sez1_m5EEBYv2o',
   },
   {
     id: '009',
-    url: 'https://youtube.com/shorts/xZ48_razkME',
+    url: 'https://www.youtube.com/embed/2JBx_06dD1k?si=YR1zWznpmtQV3qwW',
   },
   {
     id: '010',
-    url: 'https://www.youtube.com/shorts/FcrdHbrBVgA',
+    url: 'https://www.youtube.com/embed/xrj3zzaqODw?si=T_Ctb5wklsHg5Qvm',
   },
 ];
 
