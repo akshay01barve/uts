@@ -2,13 +2,13 @@
   "expo": {
     "name": "my-app",
     "slug": "my-app",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/i1.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/s1.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,7 +17,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/a1.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.akshaybarve.myapp"
@@ -25,7 +25,7 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/f1.png"
     },
     "plugins": [
       "expo-router",
@@ -47,7 +47,7 @@
         "projectId": "94bb20c7-d754-42a9-ad50-d81f70f4e05d"
       }
     },
-    "runtimeVersion": "1.1.4",
+    "runtimeVersion": "1.1.5",
     "updates": {
       "url": "https://u.expo.dev/94bb20c7-d754-42a9-ad50-d81f70f4e05d",
       "requestHeaders": {
