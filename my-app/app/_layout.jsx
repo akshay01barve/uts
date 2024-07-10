@@ -19,8 +19,8 @@ const _layout = () => {
     <Tabs   screenOptions={{
       tabBarActiveTintColor: '#00b0ff',
       tabBarInactiveTintColor: '#fff',
-      tabBarStyle: { backgroundColor: '#FF0063' },
-      headerStyle: { backgroundColor: '#FF0063' }, // Set header background color
+      tabBarStyle: { backgroundColor: '#BFFFBC' },
+      headerStyle: { backgroundColor: '#BFFFBC' }, // Set header background color
       headerTintColor: '#fff', // Set header text and icon color
     }}>
 
